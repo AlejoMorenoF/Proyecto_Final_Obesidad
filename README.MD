@@ -10,8 +10,20 @@ El proyecto está organizado de la siguiente manera:
 - `requirements`: Listado de las librerias y versiones utilizadas.
 - `Datos`: Carpeta con las bases de datos utilizadas, original y transformada.
 - `Codigo`: Cuadernos con el código en sus dos etapas:
-    - `1_Análisis_Exploratorio.ipynb`: Cuaderno del análisis exploratorio.
-    - `2_Aprendizaje_supervisado.ipynb`: Cuaderno con el código de los dos modelos.
+  *`1_Análisis_Exploratorio.ipynb`: Cuaderno del análisis exploratorio. Incluye:
+        - 1. Cargar las librerias
+        - 2. Cargar los datos
+        - 3. Descripción de las variables numéricas continuas
+        - 4. Descripción de las variables categóricas
+        - 5. Transformación de los Datos
+        - 6. Reducción de dimensiones - Análisis de Componentes Principales
+        - 7. Reducción de dimensiones - Método de Clusters K-MEANS
+    * `2_Modelos_Aprendizaje.ipynb`: Cuaderno con el código de los dos modelos.
+        - 1. Random Forest
+        - 2. Naive Bayes
+        - 3. Regresión Logística
+        - 4. Árboles de Clasificación
+        - 5. Redes Neuronales 
 
 ## Presentado por:
 ALEANDRO MORENO FONSECA 
