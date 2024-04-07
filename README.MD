@@ -6,10 +6,15 @@ En este ejercicio se hará en primer lugar un análisis exploratorio de la base 
 
 ## Estructura del proyecto
 El proyecto está organizado de la siguiente manera: 
+
 - `README`: Archivo con la descripción general del proyecto.
+
 - `requirements`: Listado de las librerias y versiones utilizadas.
+
 - `Datos`: Carpeta con las bases de datos utilizadas, original y transformada.
+
 - `Codigo`: Cuadernos con el código en sus dos etapas:
+
   *`1_Análisis_Exploratorio.ipynb`: Cuaderno del análisis exploratorio. Incluye:
         - 1. Cargar las librerias
         - 2. Cargar los datos
@@ -18,6 +23,7 @@ El proyecto está organizado de la siguiente manera:
         - 5. Transformación de los Datos
         - 6. Reducción de dimensiones - Análisis de Componentes Principales
         - 7. Reducción de dimensiones - Método de Clusters K-MEANS
+
     * `2_Modelos_Aprendizaje.ipynb`: Cuaderno con el código de los dos modelos.
         - 1. Random Forest
         - 2. Naive Bayes
